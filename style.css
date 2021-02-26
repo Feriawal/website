@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .hero {
+    width: 100%;
+}
+
+.container .hero img {
+    width: 100%;
+}
+
+.container .hero .fr {
+    width: 120px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.container .hero ul {
+    position: absolute;
+    top: 30px;
+    left: 30%;
+}
+
+.container .hero ul li {
+    display: inline;
+    padding: 40px;
+    font-size: 25px;
+    color: lightcyan;
+    cursor: pointer;
+}
+
+.container .hero ul li:hover {
+    background-color: lightslategrey;
+    padding: 5px;
+    cursor: pointer;
+    color: salmon;
+}
+
+.container .hero .sidebar {
+    width: 70px;
+    height: 757px;
+    background-color: slategray;
+    position: absolute;
+    right: 0;
+    opacity: .7;
+}
+
+.container .hero .sidebar .social a:hover {
+    background-color: red;
+}
+
+.container .hero .menu {
+    width: 30px;
+    margin: 20px 15px;
+    cursor: pointer;
+}
+
+.container .hero .sidebar .social {
+    width: 40px;
+    margin: 30px 10px;
+    margin-top: 100px;
+}
+
+.container .hero .sidebar .social img {
+    padding: 15px 0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.container .hero .sidebar .share {
+    width: 40px;
+    margin: 70px 15px;
+    margin-top: 160px;
+}
+
+.container .hero .sidebar .share img {
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 50%;
+}
+
+.container .hero .sidebar .share img:hover {}
+
+.hero h1 {
+    position: absolute;
+    top: 40%;
+    left: 80px;
+    font-weight: normal;
+    font-size: 90px;
+    color: white;
+    text-shadow: 2px -2px 2px black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero h1 span {
+    color: tomato;
+}
+
+.hero p {
+    position: absolute;
+    color: white;
+    top: 75%;
+    left: 80px;
+    font-size: 24px;
+}
+
+.hero .animasi {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    top: 230px;
+    left: 80px;
+    animation: animasi1 3s infinite;
+}
+
+
+
+/* animation */
+@keyframes animasi1 {
+    0% {
+        left: 80px;
+    }
+
+    100% {
+        left: 60%;
+        background-color: white;
+        width: 40px;
+    }
+}
